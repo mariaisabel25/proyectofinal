@@ -1,0 +1,108 @@
+.banner{
+    margin: 100px;
+    padding-top: 10px;
+}
+.banner{
+    width: 100%;
+    height: 50vh;
+    padding-top: 140px;
+    
+}
+
+.banner .row{
+    display: flex;
+    width: 150%;
+    height: 50vh;
+    animation: banner 12s infinite;
+    transition: 3s all;
+    padding-bottom: 0px;
+}
+
+.banner .row .col-100{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+   
+}
+
+.banner .row .col-100 img{
+    width: 100%;
+}
+
+@keyframes banner{
+    33%{
+        margin-left: -100%;
+    }
+
+    66%{
+        margin-left: -200%;
+    }
+    99%{
+        margin-left: 0px;
+    }
+}
+
+@media(max-width: 768px){
+    .banner{
+        height: 45vh;
+    }
+
+    .banner .row{
+        height: 45vh;
+    }
+    
+    .banner .row .col-100{
+        height: 45vh;
+    }
+}
+
+@media(max-width: 370px){
+    .banner{
+        height: 30vh;
+    }
+
+    .banner .row{
+        height: 30vh;
+    }
+    
+    .banner .row .col-100{
+        height: 30vh;
+    }
+}
+
+/* Segundo Banner  */
+.row-2{ 
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/1b/87/93/1b879338c295400d4bc1fd012af52a55.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50vh;
+}
+
+.col-30{
+    padding-top: 200px;
+    color: black;
+    margin-left: 300px;
+}
+
+.col-30 h2,p{
+    font-size: 1.5em;
+}
+
+.col-30 button{
+    background-color:azure;
+    font-size: 1.2em;
+    border-radius: 15px;
+
+
+}
+
+.col-30 button:hover{
+    background-color: green;
+
+
+}
+
+
+/* Finaliza Segundo Banner */
+
