@@ -1,41 +1,42 @@
-.banner{
-    margin: 100px;
-    padding-top: 10px;
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+main{
+    height: 170vh;
+    width: 100%;
 }
+
 .banner{
     width: 100%;
-    height: 50vh;
-    padding-top: 140px;
-    
+    height: 20vh;
+    margin: 5px;
 }
 
 .banner .row{
     display: flex;
-    width: 150%;
-    height: 50vh;
-    animation: banner 12s infinite;
-    transition: 3s all;
-    padding-bottom: 0px;
+    width: 100%;
+    height: 110vh;
+    animation: banner 10s infinite;
+    transition: 3s all;  
 }
 
 .banner .row .col-100{
     width: 100%;
     height: 90vh;
-    overflow: hidden;
-   
+    overflow-y: hidden;  
 }
 
 .banner .row .col-100 img{
     width: 100%;
+    height: 20vh;
 }
 
 @keyframes banner{
     33%{
-        margin-left: -100%;
+        margin-left: -10%;
     }
 
     66%{
-        margin-left: -200%;
+        margin-left: -10%;
     }
     99%{
         margin-left: 0px;
@@ -77,29 +78,37 @@
     background-size: 100%;
     background-repeat: no-repeat;
     height: 50vh;
+    margin: 5px;
 }
 
 .col-30{
-    padding-top: 200px;
+    padding-top: 150px;
     color: black;
-    margin-left: 300px;
+    margin-left: 380px;
 }
 
 .col-30 h2,p{
+    font-family: 'Reggae One', cursive;
     font-size: 1.5em;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .col-30 button{
-    background-color:azure;
+    background-color:#edbbf1;
+    font-family: 'Reggae One', cursive;
     font-size: 1.2em;
     border-radius: 15px;
-
+    color: black;
+    width: 30%;
 
 }
 
 .col-30 button:hover{
-    background-color: green;
-
+    color:#edbbf1;
+    background-color:azure;
+    cursor: pointer;
 
 }
 
