@@ -1,0 +1,33 @@
+main{
+    height: 180vh;
+    width: 100%;
+}
+
+.agendas{
+    width: 100%;
+    height: 180vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.agendas .row div{
+    width: 100%;
+}
+.agendas .titulo h2{
+    font-family: 'Reggae One', cursive;
+    background-color: #FAF3F8;
+    width: 20%;
+    padding-right: 25px;
+    border-radius: 5px 0px;
+    color:  #F2BBAE;;
+    padding-left: 35px;
+    text-align: center;
+}
+
+.agendas .row img{
+    width: 30%;
+    height: 45vh;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+}
