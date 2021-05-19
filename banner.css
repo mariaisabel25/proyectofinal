@@ -14,14 +14,14 @@ main{
 .banner .row{
     display: flex;
     width: 100%;
-    height: 110vh;
+    height: 20vh;
     animation: banner 10s infinite;
     transition: 3s all;  
 }
 
 .banner .row .col-100{
     width: 100%;
-    height: 90vh;
+    height: 20vh;
     overflow-y: hidden;  
 }
 
@@ -43,17 +43,45 @@ main{
     }
 }
 
-@media(max-width: 768px){
+/* @media(max-width: 768px){ 
     .banner{
-        height: 45vh;
+        height: 30vh;
     }
 
     .banner .row{
-        height: 45vh;
+        height: 30vh;
     }
     
     .banner .row .col-100{
-        height: 45vh;
+        width: 200%;
+        height: 20vh;
+    }
+    .banner .row .col-100 img{
+        height: 25vh;
+        width: 150%;
+    }
+}*/
+
+@media(max-width:480px) {
+    .banner{
+        height: 30vh;
+        width: 250%;
+    }
+
+    .banner .row{
+        height: 30vh;
+        width: 100%;
+    }
+    .banner .row{
+        height: 30vh;
+    }
+
+    .banner .row .col-100{
+        height: 30vh;
+    }
+    .banner .row .col-100 img{
+        width: 110%;
+        height: 30vh;
     }
 }
 
@@ -115,3 +143,14 @@ main{
 
 /* Finaliza Segundo Banner */
 
+/* RESPONSIVE de la etiqueta main */
+@media(max-width:480px){
+    main{
+        height: 250vh;
+    }
+
+    .col-30{
+        padding-top: 190px;
+        margin-left: 45px;
+    }
+}

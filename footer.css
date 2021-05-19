@@ -176,14 +176,39 @@ footer{
 /* ----------- end footer ------------ */
 
 @media (max-width:480px){
-
     .container-footer{
+        height: 180vh;
+    }
+
+    .container-footer .row{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
+    .container-footer .filter .row:nth-child(1){
+        width: 110%;
+        justify-content: center;
+    }
+
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+        width: 70%; 
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        margin-left: 30px;
+        margin: 10px;
+    }
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
+        width: 70%; 
+        display: flex;
+        flex-direction: column;
+        padding: 20px 10px;
+        margin-left: 40px;
+        margin: 10px;
+    }
+   
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
        width: 80%;
        display: flex;
@@ -205,11 +230,9 @@ footer{
     }
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
         margin-left: 40px;
-        width: 90%;
+        width: 100%;
         padding: 7px 12px;
         margin-top: 30px;
-        background-color: #f3785f;
-        color: azure;
         border: none;
         letter-spacing: 2px;
     }

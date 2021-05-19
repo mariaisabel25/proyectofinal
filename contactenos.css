@@ -1,0 +1,25 @@
+.bloque{
+    display: flex;
+
+}
+
+.bloque .columna-1 img{
+    width: 100%;
+}
+
+.bloque div{
+    margin: 5px;
+}
+
+.columna-2 h2{
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    padding-bottom: 20px;
+}
+
+form .cliente input .text{
+    width: 65%;
+    height: 25vh;
+    margin: 10px;
+
+}

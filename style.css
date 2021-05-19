@@ -68,7 +68,7 @@ body{
         width: 100%;
         display: flex;
         flex-direction: column;
-        align-content: center;
+        align-content: center; 
 
     }
     
@@ -97,7 +97,7 @@ body{
     
     .content-mobile .row ul li{
         padding: 5px 10px;
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Reggae One', cursive;
         font-size: 1.3em;
         list-style: none;
         width: 100%;
@@ -106,7 +106,9 @@ body{
     }
     
     .content-mobile .row ul li:hover{
-        background-color: #d6d5d5;
+        background-color: #F2BBAE;
+        color: #F2BBAE;
+        cursor:pointer;
     }
     
     .content-mobile .row ul li a{
@@ -117,6 +119,7 @@ body{
     }
 }
 
+/* Seccion Productos Destacados de la Pagina Principal */
 .destacados{
     width: 100%;
     height: 75vh;
@@ -180,5 +183,24 @@ body{
    width: 10%;
    height: 7vh;
    margin: 2.5px;
+}
+
+/* Responsive de la Seccion de Productos Destacados de la Pagina Principal */
+
+@media(max-width: 480px){
+    .destacados{
+        height: 125vh;
+    }
+    .dos-col{
+        display: block;
+    }
+
+    .destacados h2{
+        font-size: 1.3em;
+    }
+
+    .destacados .col-45 h2{
+      font-size: 1.2em;
+    }
 
 }
