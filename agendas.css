@@ -1,3 +1,4 @@
+/* Inicio Seccion AGENDAS */
 main{
     height: 200vh;
     width: 100%;
@@ -10,9 +11,10 @@ main{
     justify-content: center;
 }
 
-.agendas .row div{
+.agendas .row-agendas div{
     width: 100%;
 }
+
 .agendas .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
@@ -24,10 +26,25 @@ main{
     text-align: center;
 }
 
-.agendas .row img{
+
+.agendas .row-agendas img{
     width: 30%;
     height: 45vh;
     margin: 2px;
     align-items: center;
     justify-content: center;
+}
+
+/* Inicio Responsive de la seccion AGENDAS */
+@media(max-width:480px){
+    
+    main{
+        height: 230vh;
+    }
+    .agendas .row-agendas img{
+     width: 40%;
+     height: 30vh;
+     margin: 22px;
+    }
+    
 }

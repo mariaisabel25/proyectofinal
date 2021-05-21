@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 main{
-    height: 170vh;
+    height: 190vh;
     width: 100%;
 }
 
@@ -39,7 +39,7 @@ main{
         margin-left: -10%;
     }
     99%{
-        margin-left: 0px;
+        margin-left: 0%;
     }
 }
 
@@ -64,25 +64,41 @@ main{
 
 @media(max-width:480px) {
     .banner{
-        height: 30vh;
+        height: 35vh;
         width: 250%;
     }
 
     .banner .row{
-        height: 30vh;
+        height: 35vh;
         width: 100%;
-    }
-    .banner .row{
-        height: 30vh;
+        animation: banner 40s infinite;
+        transition: 5s all;
     }
 
     .banner .row .col-100{
         height: 30vh;
+        width: 150%;
+
     }
     .banner .row .col-100 img{
-        width: 110%;
-        height: 30vh;
+        width: 105%;
+        height: 35vh;
+        margin: 5px;
     }
+
+    @keyframes banner{
+        33%{
+            margin-left: -65%;
+        }
+    
+        66%{
+            margin-left: -15%;
+        }
+        99%{
+            margin-left: 0%;
+        }
+    }
+
 }
 
 @media(max-width: 370px){
@@ -105,14 +121,14 @@ main{
     background-image: url("https://i.pinimg.com/originals/1b/87/93/1b879338c295400d4bc1fd012af52a55.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 70vh;
     margin: 5px;
 }
 
 .col-30{
-    padding-top: 150px;
+    padding-top: 180px;
     color: black;
-    margin-left: 380px;
+    margin-left: 420px;
 }
 
 .col-30 h2,p{
@@ -146,7 +162,7 @@ main{
 /* RESPONSIVE de la etiqueta main */
 @media(max-width:480px){
     main{
-        height: 250vh;
+        height: 260vh;
     }
 
     .col-30{

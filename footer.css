@@ -176,52 +176,69 @@ footer{
 /* ----------- end footer ------------ */
 
 @media (max-width:480px){
+    footer{
+        height: 160vh;
+    }
     .container-footer{
-        height: 180vh;
+        height: 160vh;
     }
 
     .container-footer .row{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin: 0px;
         align-items: center;
     }
 
     .container-footer .filter .row:nth-child(1){
-        width: 110%;
+        width: 100%;
         justify-content: center;
+        align-items: center;
+    }
+    
+    .container-footer .filter .row:nth-child(1) img{
+        margin-top: 5px;
+    }
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
+        width: 100%; 
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-right: 15px;
     }
 
-    .container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
-        width: 70%; 
-        display: flex;
-        flex-direction: column;
-        padding: 20px 10px;
-        margin-left: 30px;
-        margin: 10px;
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(1) ul{
+        padding-left: 0px;
     }
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(2){
-        width: 70%; 
+        width: 90%; 
         display: flex;
         flex-direction: column;
         padding: 20px 10px;
         margin-left: 40px;
         margin: 10px;
     }
+    
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(2) ul{
+        padding-left: 0px;
+    }
+    .container-footer .filter .row:nth-child(2) .col-30:nth-child(3){
+        width: 90%;
+    }
    
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form{
-       width: 80%;
+       width: 100%;
        display: flex;
        flex-direction: column;
        margin-top: 25px;
     }  
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form label{
-        margin-left: 40px;
-
+        margin-left: 0px;
     }
+
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form input{
         margin-left: 40px;
-        width: 30%;
+        width: 70%;
         border-radius: 5px;
         outline: none;
         border: none;
@@ -230,11 +247,17 @@ footer{
     }
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(3) form button{
         margin-left: 40px;
-        width: 100%;
+        width: 85%;
         padding: 7px 12px;
         margin-top: 30px;
         border: none;
         letter-spacing: 2px;
     }
-
+    
+    .container-footer .filter .row:nth-child(3){
+        width: 95%;
+    }
+    .container-footer .filter .row:nth-child(3) img{
+        width: 80%;
+    }
 }

@@ -189,7 +189,7 @@ body{
 
 @media(max-width: 480px){
     .destacados{
-        height: 125vh;
+        height: 130vh;
     }
     .dos-col{
         display: block;
@@ -198,9 +198,34 @@ body{
     .destacados h2{
         font-size: 1.3em;
     }
-
+    
+    .col-45{
+        margin: 20px;
+    }
     .destacados .col-45 h2{
       font-size: 1.2em;
     }
-
+    .marcas-aliadas h2{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    .marcas-aliadas{
+        height: 25vh;
+    }
+    .col-25{
+        width: 80%;
+    }
+    .col-25 img{
+        width: 15%;
+        margin: 3.5px;
+        height: 5vh;
+    }
+    
+    .row-destacados{
+        width: 130%;
+        margin-right: 10px;
+        margin-left: 25px;
+       
+    }
 }
