@@ -1,8 +1,4 @@
-main{
-    height: 120vh;
-}
-
-.papeleria .titulo h2{
+.accesorios .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
     width: 20%;
@@ -13,7 +9,7 @@ main{
     text-align: center;
 }
 
-.papeleria .row-papeleria img{
+.accesorios .row-accesorios img{
     width: 30%;
     height: 45vh;
     margin: 15px;
