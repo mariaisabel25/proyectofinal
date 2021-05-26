@@ -4,18 +4,18 @@ main{
     width: 100%;
 }
 
-.agendas{
+.anchetas{
     width: 100%;
     height: 180vh;
     align-items: center;
     justify-content: center;
 }
 
-.agendas .row-agendas div{
+.anchetas .row-anchetas div{
     width: 100%;
 }
 
-.agendas .titulo h2{
+.anchetas .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
     width: 20%;
@@ -27,7 +27,7 @@ main{
 }
 
 
-.agendas .row-agendas img{
+.anchetas .row-anchetas img{
     width: 30%;
     height: 45vh;
     margin: 2px;
@@ -35,13 +35,13 @@ main{
     justify-content: center;
 }
 
-/* Inicio Responsive de la seccion AGENDAS */
+/* Inicio Responsive de la seccion Anchetas */
 @media(max-width:480px){
     
     main{
         height: 230vh;
     }
-    .agendas .row-agendas img{
+    .anchetas .row-anchetas img{
      width: 40%;
      height: 30vh;
      margin: 22px;
