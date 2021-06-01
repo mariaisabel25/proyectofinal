@@ -1,6 +1,11 @@
+main{
+    height: 120vh;
+}
+
+
 .bloque{
     display: flex;
-
+    margin-top: 50px;
 }
 
 .bloque .columna-1 img{
@@ -8,13 +13,18 @@
 }
 
 .bloque div{
-    margin: 5px;
+    margin: 10px;
+}
+.bloque .columna-2{
+    background-color: #FAF3F8;
 }
 
 .columna-2 h2{
     text-align: center;
     font-family: 'Reggae One', cursive;
     padding-bottom: 20px;
+    font-size: 1.3rem;
+    border-bottom: 15px;
 }
 
 form .cliente input .text{
@@ -22,4 +32,61 @@ form .cliente input .text{
     height: 25vh;
     margin: 10px;
 
+
 }
+
+.contactenos .titulo h2{
+    font-family: 'Reggae One', cursive;
+    background-color: #FAF3F8;
+    width: 20%;
+    padding-right: 25px;
+    border-radius: 5px 0px;
+    color:  #F2BBAE;;
+    padding-left: 35px;
+    text-align: center;
+}
+
+.columna-2 .cliente{
+    padding-left: 25px;
+}
+
+.columna-2 .cliente p{
+    font-size: 1.2rem;
+    padding-left: 10px;
+    margin: 25px;
+}
+
+.columna-2 .cliente p:nth-child(4){
+    font: 1.5em;
+    padding-left: none;
+    width: 50%;
+    margin: 0px;
+} 
+
+.columna-2 .cliente input[type="text" i],input[type="email" i]{
+    text-align: justify;
+    color: #F2BBAE;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 80%;
+    margin: 10px;
+    padding-left: 10px;
+
+}
+
+.columna-2 .cliente input[type="checkbox" i]{
+     background-color: #FAF3F8;
+     margin: 5px;
+}
+
+button{
+    margin-left: 35px;
+    width: 60%;
+    background-color: #F2BBAE;
+    color: black;
+    font-family: 'Reggae One', cursive;
+    border-radius: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
