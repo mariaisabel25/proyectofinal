@@ -1,3 +1,33 @@
+main{
+    width: 100%;
+    margin-left: 0px;
+}
+
+.accesorios{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.row-accesorios{
+    height: 100vh;
+}
+
+.row-accesorios .descripcion-accesorios{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+.descripcion-accesorios div{
+    height: 60vh;
+    width: 30%;
+    margin-bottom: 20px;
+}
+
 .accesorios .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
@@ -10,7 +40,16 @@
 }
 
 .accesorios .row-accesorios img{
-    width: 30%;
+    width: 90%;
     height: 45vh;
-    margin: 15px;
+    margin: 5px;
+}
+
+.row-accesorios p{
+    height: 5vh;
+    margin: 4px;
+    width: 80%;
+    font-size: 1.3rem;
+    text-align: center;
+
 }

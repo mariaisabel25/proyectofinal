@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 main{
-    height: 190vh;
+    
     width: 100%;
 }
 
@@ -20,9 +20,8 @@ main{
 }
 
 .banner .row .col-100{
-    width: 100%;
+    width: 50%;
     height: 20vh;
-    overflow-y: hidden;  
 }
 
 .banner .row .col-100 img{
@@ -65,7 +64,7 @@ main{
 @media(max-width:480px) {
     .banner{
         height: 35vh;
-        width: 250%;
+        /* width: 250%; */
     }
 
     .banner .row{
@@ -73,30 +72,18 @@ main{
         width: 100%;
         animation: banner 40s infinite;
         transition: 5s all;
+
     }
 
     .banner .row .col-100{
         height: 30vh;
-        width: 150%;
+        width: 180%;
 
     }
     .banner .row .col-100 img{
-        width: 105%;
+        width: 170%;
         height: 35vh;
-        margin: 5px;
-    }
-
-    @keyframes banner{
-        33%{
-            margin-left: -65%;
-        }
-    
-        66%{
-            margin-left: -15%;
-        }
-        99%{
-            margin-left: 0%;
-        }
+        margin: 5px
     }
 
 }
