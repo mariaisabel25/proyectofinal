@@ -10,19 +10,23 @@ main{
     height: 180vh;
 }
 
-.anchetas .row-anchetas{
-    display:flex;
+.row-anchetas{
     margin: 15px;
     height: 250vh;
-    margin-left: 0px;
+    /*display:flex;*/
+    flex-direction: row;
+    box-sizing: border-box;
 }
 
 .row-anchetas .descripcion{
-    height: 40vh;
-    width: 50%;
-    margin-left: 25px;
-    margin-right: -70px;
-    padding: 0px;
+    height: 55vh;
+    width: 40%;
+    margin: 15px;
+    padding: 15px;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
 }
     
     
@@ -38,33 +42,21 @@ main{
 }
 
 .anchetas .row-anchetas img{
-    width: 40%;
-    height: 25vh;
-    margin: 2px;
-    align-items: center;
-    justify-content: center;
+    width: 89%;
+    margin: 10px;
+    height: 39vh;
+    display: flex;
+    padding-right: 1px;
+    margin-right: 1px;
 }
 
 .anchetas .row-anchetas p{
     height: 5vh;
-    margin: 4px;
-    width: 40%;
+    margin: 4px; 
+    width: 89%;
     font-size: 1.3rem;
     text-align: center;
-    padding: 0px;
-}
-
-
-/* Inicio Responsive de la seccion Anchetas */
-@media(max-width:480px){
-    
-    main{
-        height: 230vh;
-    }
-    .anchetas .row-anchetas img{
-     width: 40%;
-     height: 30vh;
-     margin: 22px;
-    }
-    
-}
+    margin-right: 1px;
+    padding-right: 1px;
+    display: row;
+} 

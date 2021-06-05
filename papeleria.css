@@ -13,8 +13,61 @@ main{
     text-align: center;
 }
 
-.papeleria .row-papeleria img{
+/* .papeleria .row-papeleria img{
     width: 30%;
     height: 45vh;
     margin: 15px;
+} */
+
+.row-papeleria{
+    display: flex;
+}
+.col-prod{
+    width: 75%;
+    height: 45vh;
+}
+
+.col-prod p{
+    padding-top: 25px;
+    font-size: 1.3rem;
+
+}
+.col-prod:nth-child(1){
+    width:35% ;
+    background-image: url("https://www.billypaper.com/10225-home_default/carpeta-4-anillas-premium-pusheen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+}
+
+
+
+.col-prod:nth-child(2){
+    background-image: url("https://www.billypaper.com/9147-home_default/carpeta-de-solapas-glitter-gold-dreams.jpg");
+
+}
+
+.col-prod:nth-child(3){
+    background-image: url("https://www.billypaper.com/9129-home_default/archivador-con-compresor-lily-val.jpg");
+
+}
+
+.col-prod:nth-child(4){
+    background-image: url("https://www.billypaper.com/9511-home_default/carpeta-6x8-tartan-rojo.jpg");
+
+}
+
+.col-prod:nth-child(5){
+    background-image: url("https://www.billypaper.com/9457-home_default/sellos-acrilicos-para-scrap-ojala-siempre-7x10.jpg");
+
+}
+
+.col-prod:nth-child(6){
+    background-image: url("https://www.billypaper.com/9512-home_default/carpeta-6x8-pata-de-gallo.jpg");
+
+}
+
+.col-prod:nth-child(7){
+    background-image: url("https://www.billypaper.com/9764-home_default/goma-pusheen-star.jpg");
+
 }
