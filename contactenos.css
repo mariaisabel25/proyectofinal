@@ -1,11 +1,11 @@
 main{
-    height: 120vh;
+    height: 100vh;
 }
 
 
 .bloque{
     display: flex;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .bloque .columna-1 img{
@@ -31,8 +31,6 @@ form .cliente input .text{
     width: 65%;
     height: 25vh;
     margin: 10px;
-
-
 }
 
 .contactenos .titulo h2{

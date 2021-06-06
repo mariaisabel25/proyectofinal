@@ -60,6 +60,19 @@ body{
     display: none;
 }
 
+/* Inicia Responsive de la seccion INICIO */
+@media (max-width:1080px){
+    .content-full ul li{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:768px){
+    .content-full .row ul li{
+        font-size: 1.2rem;
+    }
+    
+}
 @media(max-width:480px){
     .content-full{
         display: none;
@@ -132,13 +145,13 @@ body{
     align-items: center;
     
 }
-.col-45{
+.col-45d{
     margin: 15px;
     background-color: #F2BBAE;
     padding-left: 15px;
     border-radius: 10px
 }
-.col-45 h2{
+.col-45d h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
     width: 90%;
@@ -146,7 +159,7 @@ body{
     border-radius: 5px 0px;
 }
 
-.col-45 img{
+.col-45d img{
     width: 45%;
     height: 25vh;
     margin: 7px;
@@ -186,7 +199,19 @@ body{
 }
 
 /* Responsive de la Seccion de Productos Destacados de la Pagina Principal */
+@media (max-width:768px){
+    .col-45d img{
+        width: 40%;
+        margin:9px
+    }
 
+    .row-destacados .col-25{
+        padding-left: 30px;
+    }
+    .row-destacados .col-25 img{
+        width: 8%;
+    }
+}
 @media(max-width: 480px){
     .destacados{
         height: 130vh;
@@ -217,13 +242,13 @@ body{
         width: 80%;
     }
     .col-25 img{
-        width: 15%;
-        margin: 3.5px;
+        width: 8%;
+        margin: 2.5px;
         height: 5vh;
     }
     
     .row-destacados{
-        width: 130%;
+        width: 100%;
         margin-right: 10px;
         margin-left: 25px;
        

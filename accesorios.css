@@ -1,6 +1,7 @@
 main{
     width: 100%;
     margin-left: 0px;
+    height: 120vh;
 }
 
 .accesorios{
@@ -23,15 +24,19 @@ main{
     margin-top: 80px;
 }
 .descripcion-accesorios div{
-    height: 60vh;
+    height: 56vh;
     width: 30%;
     margin-bottom: 20px;
+    background-color: #FAF3F8;
+    margin: 5px;
+    padding-left: 15px;
+    justify-content: center;
 }
 
 .accesorios .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
-    width: 20%;
+    width: 65%;
     padding-right: 25px;
     border-radius: 5px 0px;
     color:  #F2BBAE;;
@@ -43,13 +48,15 @@ main{
     width: 90%;
     height: 45vh;
     margin: 5px;
+    align-items: center;
 }
 
-.row-accesorios p{
-    height: 5vh;
+.row-accesorios p,h3{
+    height: 3vh;
     margin: 4px;
     width: 80%;
     font-size: 1.3rem;
     text-align: center;
+    padding-left: 20px;
 
 }

@@ -3,7 +3,7 @@
 
 footer{
     width: 100%;
-    height: 65vh;
+    height: 80vh;
 }
 .container-footer{
     width: 100%;
@@ -17,7 +17,6 @@ footer{
 
 .container-footer .filter{
     width: 100%;
-    height: 100%;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -175,12 +174,16 @@ footer{
 
 /* ----------- end footer ------------ */
 
+
+@media (max-width:1080px){
+
+}
 @media (max-width:480px){
-    footer{
-        height: 160vh;
-    }
+    /* footer{
+        height: 100vh;
+    } */
     .container-footer{
-        height: 160vh;
+        height: 130vh;
     }
 
     .container-footer .row{

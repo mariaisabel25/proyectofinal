@@ -2,6 +2,7 @@
 main{
     width: 100%;
     margin-left: 0px;
+    height: 150vh;
 }
 
 .anchetas{
@@ -12,29 +13,35 @@ main{
 }
 
 .row-anchetas{
-    height: 100vh;
+    height: 150vh;
 }
 
 .row-anchetas .descripcion{
-    height: 100vh;
+    height: 140vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 80px;
+    margin-top: 100px;
+    padding-left: 45px;
+
 
 }
 
 .descripcion div{
-    height: 40vh;
-    width: 30%;
+    height: 45vh;
+    width: 29%;
     margin-bottom: 20px;
+    background-color: #FAF3F8;
+    margin: 5px;
+    padding-left: 15px;
+    justify-content: center;
 }
     
 .anchetas .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
-    width: 20%;
+    width: 60%;
     padding-right: 25px;
     border-radius: 5px 0px;
     color:  #F2BBAE;;
@@ -49,10 +56,50 @@ main{
 }
 
 .anchetas .row-anchetas p{
-    height: 5vh;
+    height: 3vh;
     margin: 4px; 
-    width: 80%;
-    font-size: 1.3rem;
+    width: 95%;
+    font-size: 1.2rem;
     text-align: center;
+    justify-content: center;
   
 } 
+
+footer{
+    margin-top: 30px;
+}
+/* Responsive seccion de ANCHETAS */
+
+@media (max-width:1080px){
+    
+}
+
+@media (max-width:768px) {
+    .row-anchetas .descripcion{
+        padding-left: 0px;
+    }
+
+    .anchetas .row-anchetas p{
+        font-size: 1.1em;
+        font-size: smaller;
+    }
+}
+
+@media (max-width:480px){
+    main{
+        height: 240vh;
+    }
+    
+    .anchetas{
+        display: block;
+    }
+    
+    .row-anchetas .descripcion{
+        margin-top: 45px;
+        padding-left: 28px;
+    }
+
+    .descripcion div{
+        width: 40%;
+    }
+}

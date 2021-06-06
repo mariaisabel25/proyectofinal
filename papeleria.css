@@ -1,7 +1,7 @@
 main{
-
     width: 100%;
-    margin-left: 5px;
+    margin-left: 0px;
+    height: 105vh;
 }
 
 .papeleria{
@@ -25,15 +25,20 @@ main{
 }
 
 .col-prod div{
-    height: 40vh;
+    height: 45vh;
     width: 30%;
     margin-bottom: 20px;
+    background-color: #FAF3F8;
+    margin: 5px;
+    padding-left: 15px;
+    justify-content: center;
+
 }
 
 .papeleria .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
-    width: 20%;
+    width: 60%;
     padding-right: 25px;
     border-radius: 5px 0px;
     color:  #F2BBAE;;
@@ -51,7 +56,11 @@ main{
     height: 5vh;
     margin:4px;
     width: 80%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
+}
+
+footer{
+    margin-top: 50px;
 }
 
