@@ -176,8 +176,7 @@ body{
 .marcas-aliadas{
     width: 99%;
     height: 12vh;
-    /* background-color:#F2F2F2; */
-    margin: 5px;
+    margin: 25px;
     border-radius: 10px;
     background-color:white;
 }
@@ -205,11 +204,15 @@ body{
         margin:9px
     }
 
-    .row-destacados .col-25{
-        padding-left: 30px;
-    }
+    /* .row-destacados .col-25{
+        padding-left: 2px;
+    } */
     .row-destacados .col-25 img{
-        width: 8%;
+        width: 9%;
+    }
+
+    .col-25 img{
+        height: 5vh;
     }
 }
 @media(max-width: 480px){
@@ -230,6 +233,10 @@ body{
     .destacados .col-45 h2{
       font-size: 1.2em;
     }
+
+    .marcas-aliadas{
+        margin: 1px;
+    }
     .marcas-aliadas h2{
         text-align: center;
         font-size: 1.2em;
@@ -239,18 +246,17 @@ body{
         height: 25vh;
     }
     .col-25{
-        width: 80%;
+        width: 100%;
+        padding-left:0;
+
     }
     .col-25 img{
-        width: 8%;
-        margin: 2.5px;
-        height: 5vh;
+        margin: 10px;
     }
     
     .row-destacados{
         width: 100%;
         margin-right: 10px;
-        margin-left: 25px;
-       
+        margin-left: 10px;
     }
 }

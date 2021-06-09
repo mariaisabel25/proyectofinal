@@ -1,12 +1,12 @@
-main{
+main .papeleria{
     width: 100%;
     margin-left: 0px;
-    height: 105vh;
+    height: auto;
 }
 
 .papeleria{
     width: 100%;
-    height: 100vh;
+    height: 145vh;
     display: flex;
     justify-content: center;
 } 
@@ -38,7 +38,7 @@ main{
 .papeleria .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
-    width: 60%;
+    width: 65%;
     padding-right: 25px;
     border-radius: 5px 0px;
     color:  #F2BBAE;;
@@ -53,9 +53,9 @@ main{
 } 
 
 .papeleria .row-papeleria p,h3{
-    height: 5vh;
+    height: 4vh;
     margin:4px;
-    width: 80%;
+    width: 85%;
     font-size: 1.4rem;
     text-align: center;
 }
@@ -64,3 +64,47 @@ footer{
     margin-top: 50px;
 }
 
+@media (max-width:1080px){
+    
+}
+
+@media (max-width:768px) {
+    main{
+        height: auto;
+    }
+    
+    .papeleria{
+        height: 130vh;
+    }
+
+    .row-papeleria .col-prod{
+        padding-left: 0px;
+    }
+
+    .papeleria .row-papeleria p{
+        font-size: 1.1rem;
+        font-size: smaller;
+    }
+
+    .col-prod div{
+        height: 40vh;
+        width: 29%;
+    }
+}
+
+@media (max-width:480px){
+
+    .papeleria{
+        display: block;
+        height: 210vh;
+    }
+    
+    .row-papeleria .col-prod{
+        margin-top: 45px;
+        padding-left: 28px;
+    }
+
+    .col-prod div{
+        width: 40%;
+    }
+}

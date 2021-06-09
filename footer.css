@@ -3,13 +3,11 @@
 
 footer{
     width: 100%;
-    height: 80vh;
 }
 .container-footer{
     width: 100%;
     height: 80vh;
     background-color:#F2EBEE;
-    /* background-image: url('https://images3.alphacoders.com/518/thumb-1920-5185.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -21,7 +19,7 @@ footer{
 }
 
 .container-footer .filter .row:nth-child(1){
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -168,7 +166,7 @@ footer{
     text-align: center;
     font-family: 'Reggae One', cursive;
     color: #020202;
-    font-size: 12px;
+    /* font-size: 12px; */
     margin-top: 30px;
 }
 
@@ -178,12 +176,16 @@ footer{
 @media (max-width:1080px){
 
 }
-@media (max-width:480px){
-    /* footer{
-        height: 100vh;
-    } */
+
+@media (max-width:768px){
     .container-footer{
-        height: 130vh;
+        height: 70vh;
+    }
+}
+@media (max-width:480px){
+    
+    .container-footer{
+        height: 120vh;
     }
 
     .container-footer .row{
@@ -201,6 +203,7 @@ footer{
     
     .container-footer .filter .row:nth-child(1) img{
         margin-top: 5px;
+        width: 45%;
     }
     .container-footer .filter .row:nth-child(2) .col-30:nth-child(1){
         width: 100%; 
@@ -261,6 +264,11 @@ footer{
         width: 95%;
     }
     .container-footer .filter .row:nth-child(3) img{
-        width: 80%;
+        width: 100%;
+    }
+
+    .container-footer .filter .row:nth-child(3) span{
+    font-size: 1.0rem;
+    font-size: smaller;
     }
 }
