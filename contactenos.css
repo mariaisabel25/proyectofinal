@@ -5,7 +5,7 @@ main{
 
 .bloque{
     display: flex;
-    margin-top: 100px;
+    margin-top: 180px;
 }
 
 .bloque .columna-1 img{
@@ -88,3 +88,36 @@ button{
     letter-spacing: 2px;
 }
 
+@media (max-width:1080px){
+    
+}
+
+@media (max-width:768px) {
+    .bloque{
+        display: block;
+    }
+
+    main{
+        height: 130vh;
+    }
+
+}
+
+@media (max-width:480px){
+    main{
+        height: 140vh;
+    }
+    
+    .anchetas{
+        display: block;
+    }
+    
+    .row-anchetas .descripcion{
+        margin-top: 45px;
+        padding-left: 28px;
+    }
+
+    .descripcion div{
+        width: 40%;
+    }
+}

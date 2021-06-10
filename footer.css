@@ -3,6 +3,7 @@
 
 footer{
     width: 100%;
+    height: auto;
 }
 .container-footer{
     width: 100%;
@@ -26,12 +27,12 @@ footer{
 }
 
 .container-footer .filter .row:nth-child(1) img{
-    width: 30%;
+    width: 26%;
     margin-top: 20px; 
 }
 
 .container-footer .filter .row:nth-child(2){
-    width: 100%;
+    width: 97%;
     margin-top: 15px;
     display: flex;
     justify-content: center;
@@ -185,7 +186,7 @@ footer{
 @media (max-width:480px){
     
     .container-footer{
-        height: 120vh;
+        height: 145vh;
     }
 
     .container-footer .row{

@@ -12,11 +12,11 @@ main{
 }
 
 .row-promociones{
-    height: 170vh;
+    height: 165vh;
 }
 
 .row-promociones .descripcion-promociones{
-    height: 100vh;
+    height: 157vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -26,7 +26,7 @@ main{
 
 .descripcion-promociones div{
     height: 50vh;
-    width: 30%;
+    width: 28%;
     margin-bottom: 20px;
     background-color: #FAF3F8;
     margin: 5px;
@@ -57,4 +57,39 @@ main{
     font-size: 1.3rem;
     text-align: center;
     padding-left: 20px;
+}
+
+@media (max-width:1080px){
+    
+}
+
+@media (max-width:768px) {
+    .row-promociones .descripcion-promociones{
+        padding-left: 0px;
+    }
+
+    .promociones .row-promociones p{
+        font-size: 1.1em;
+        font-size: smaller;
+    }
+
+}
+
+@media (max-width:480px){
+    main{
+        height: 260vh;
+    }
+    
+    .promociones{
+        display: block;
+    }
+    
+    .row-promociones .descripcion-promociones{
+        margin-top: 45px;
+        padding-left: 28px;
+    }
+
+    .descripcion-promociones div{
+        width: 40%;
+    }
 }

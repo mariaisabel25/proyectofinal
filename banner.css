@@ -42,24 +42,33 @@ main{
     }
 }
 
-/* @media(max-width: 768px){ 
-    .banner{
-        height: 30vh;
-    }
 
-    .banner .row{
-        height: 30vh;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive Banner de la seccion Inicio*/
+
+@media (max-width:768px){
+    .col-30{
+        padding-left: 240px;
+        margin-left: 100px;
     }
     
-    .banner .row .col-100{
-        width: 200%;
-        height: 20vh;
-    }
-    .banner .row .col-100 img{
-        height: 25vh;
-        width: 150%;
-    }
-}*/
+}
 
 @media(max-width:480px) {
     .banner{
@@ -85,6 +94,27 @@ main{
         height: 35vh;
         margin: 5px
     }
+    @keyframes banner{
+        33%{
+            margin-left: -210%;
+        }
+        66%{
+            margin-left: -180%;
+        }
+        99%{
+            margin-left: 2%;
+        }
+    }
+
+    .row-2{
+        height: 50vh;
+
+    }
+
+    .col-30{
+        padding-top: 190px;
+        margin-left: 45px;
+    }
 
 }
 
@@ -109,13 +139,13 @@ main{
     background-size: 100%;
     background-repeat: no-repeat;
     height: 70vh;
-    margin: 5px;
+
 }
 
 .col-30{
     padding-top: 180px;
     color: black;
-    margin-left: 420px;
+    margin-left: 320px;
 }
 
 .col-30 h2,p{
@@ -145,22 +175,10 @@ main{
 
 
 /* Finaliza Segundo Banner */
-
-/* RESPONSIVE de la seccion de INICIO */
 @media (max-width:768px){
-    .col-30{
-        padding-top: 85px;
-        margin-left: 155px;
-    }
-    
-}
-@media(max-width:480px){
-    main{
-        height: 260vh;
+    .row-2{
+        background-size: auto 115%;
     }
 
-    .col-30{
-        padding-top: 190px;
-        margin-left: 45px;
-    }
+    
 }
