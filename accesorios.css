@@ -16,7 +16,7 @@ main{
 }
 
 .row-accesorios .descripcion-accesorios{
-    height: 100vh;
+    height: 175vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@ main{
     margin-top: 80px;
 }
 .descripcion-accesorios div{
-    height: 56vh;
+    height: 50vh;
     width:28%;
     margin-bottom: 20px;
     background-color: #FAF3F8;
@@ -54,10 +54,10 @@ main{
 .row-accesorios p,h3{
     height: 3vh;
     margin: 4px;
-    width: 80%;
+    width: 87%;
     font-size: 1.3rem;
     text-align: center;
-    padding-left: 20px;
+    padding-left: 10px;
 
 }
 
@@ -74,17 +74,18 @@ main{
 
     .accesorios .row-accesorios p{
         font-size: 1.1em;
-        font-size: smaller;
+        font-size: small;
     }
 }
 
 @media (max-width:480px){
     main{
-        height: 290vh;
+        height: auto;
     }
     
     .accesorios{
         display: block;
+        height: 260vh;
     }
 
     .row-accesorios .descripcion-accesorios{

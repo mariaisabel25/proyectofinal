@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 main{
-    
     width: 100%;
 }
 
@@ -42,30 +41,55 @@ main{
     }
 }
 
+/* Segundo Banner  */
+.row-2{
+    width: 100%;
+    background-image: url("https://i.pinimg.com/originals/1b/87/93/1b879338c295400d4bc1fd012af52a55.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh;
+}
 
+.col-30{
+    padding-top: 170px;
+    margin-left: 320px;
+    color: black;
+}
 
+.col-30 h2,p{
+    font-family: 'Reggae One', cursive;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
 
+.col-30 button{
+    background-color:#edbbf1;
+    font-family: 'Reggae One', cursive;
+    font-size: 1.2em;
+    border-radius: 15px;
+    color: black;
+    width: 30%;
+}
 
+.col-30 button:hover{
+    color:#edbbf1;
+    background-color:azure;
+    cursor: pointer;
 
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 /*Responsive Banner de la seccion Inicio*/
 
 @media (max-width:768px){
     .col-30{
-        padding-left: 240px;
+        padding-top: 185px;
         margin-left: 100px;
+    }
+
+    .row-2{
+        background-size: 115%;
     }
     
 }
@@ -96,6 +120,7 @@ main{
     }
     @keyframes banner{
         33%{
+
             margin-left: -210%;
         }
         66%{
@@ -112,8 +137,8 @@ main{
     }
 
     .col-30{
-        padding-top: 190px;
-        margin-left: 45px;
+        padding-top: 159px;
+        margin-left: 40px;
     }
 
 }
@@ -132,53 +157,11 @@ main{
     }
 }
 
-/* Segundo Banner  */
-.row-2{ 
+/*AQUI ESTAMOS CORREGIENDO COSITAS*/
+/*.row-2{ 
     width: 100%;
     background-image: url("https://i.pinimg.com/originals/1b/87/93/1b879338c295400d4bc1fd012af52a55.png");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 70vh;
-
-}
-
-.col-30{
-    padding-top: 180px;
-    color: black;
-    margin-left: 320px;
-}
-
-.col-30 h2,p{
-    font-family: 'Reggae One', cursive;
-    font-size: 1.5em;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.col-30 button{
-    background-color:#edbbf1;
-    font-family: 'Reggae One', cursive;
-    font-size: 1.2em;
-    border-radius: 15px;
-    color: black;
-    width: 30%;
-
-}
-
-.col-30 button:hover{
-    color:#edbbf1;
-    background-color:azure;
-    cursor: pointer;
-
-}
-
-
-/* Finaliza Segundo Banner */
-@media (max-width:768px){
-    .row-2{
-        background-size: auto 115%;
-    }
-
-    
-}
+}*/

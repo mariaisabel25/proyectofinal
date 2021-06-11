@@ -1,19 +1,23 @@
 main{
-    height: 100vh;
+    height: auto;
 }
 
 
 .bloque{
     display: flex;
-    margin-top: 180px;
+    margin-top: 170px;
 }
 
 .bloque .columna-1 img{
-    width: 100%;
+    width: 95%;
+    border-color: blueviolet;
+    border-style: double;
+    border-radius: 15px;
 }
 
 .bloque div{
-    margin: 10px;
+    margin: 2px;
+
 }
 .bloque .columna-2{
     background-color: #FAF3F8;
@@ -77,7 +81,7 @@ form .cliente input .text{
      margin: 5px;
 }
 
-button{
+.contacto{
     margin-left: 35px;
     width: 60%;
     background-color: #F2BBAE;
@@ -96,9 +100,17 @@ button{
     .bloque{
         display: block;
     }
-
-    main{
-        height: 130vh;
+    
+    .bloque .columna-2{
+        height: 70vh;
+    }
+    .contactenos{
+        height: 170vh;
+    }
+    
+    .contacto{
+        width: 35%;
+        margin-left: 205px;
     }
 
 }
