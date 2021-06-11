@@ -74,7 +74,7 @@ footer{
     }
     
     .papeleria{
-        height: 140vh;
+        height: 145vh;
     }
 
     .row-papeleria .col-prod{
@@ -87,7 +87,7 @@ footer{
     }
 
     .col-prod div{
-        height: 40vh;
+        height: 42vh;
         width: 29%;
     }
 }
@@ -96,7 +96,7 @@ footer{
 
     .papeleria{
         display: block;
-        height: 210vh;
+        height: 220vh;
     }
     
     .row-papeleria .col-prod{

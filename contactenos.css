@@ -10,9 +10,6 @@ main{
 
 .bloque .columna-1 img{
     width: 95%;
-    border-color: blueviolet;
-    border-style: double;
-    border-radius: 15px;
 }
 
 .bloque div{
@@ -40,7 +37,7 @@ form .cliente input .text{
 .contactenos .titulo h2{
     font-family: 'Reggae One', cursive;
     background-color: #FAF3F8;
-    width: 20%;
+    width: 70%;
     padding-right: 25px;
     border-radius: 5px 0px;
     color:  #F2BBAE;;
